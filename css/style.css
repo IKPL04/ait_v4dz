@@ -1,0 +1,211 @@
+/* 
+100 - thin
+300 - lite
+400 - regular(normal)  (вже за азмовченням) 
+500 - medium
+600 - semibold
+700 - bold
+900 - black */
+
+
+
+/*.title{
+   text-shadow: 10px 10px 2px #d51919, -10px -10px 2px #000000 ;
+   margin: 40px;
+}
+.title-2{
+   text-shadow: 10px 10px 2px #6a06ec,-10px -10px 2px #6a06ec;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Qwitcher+Grypen&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+@font-face {
+   font-family: "Lato";
+   src: url(../fonts/Lato-Regular.woff2) format(woff2),
+      url(../fonts/Lato-Regular.woff)format(woff);
+
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url(../fonts/Lato-Bold.woff2) format(woff2),
+      url(../fonts/Lato-Bold.woff)format(woff);
+
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url(../fonts/Lato-SemiBold.woff2) format(woff2),
+      url(../fonts/Lato-SemiBold.woff)format(woff);
+}
+
+
+.title {
+   text-transform: uppercase;
+   text-shadow: 10px 10px 3px #000, -10px -10px 3px #a30000;
+   color: rgba(216, 112, 147, 0.939);
+   font-family: 'Oswald', serif;
+   font-weight: 700;
+   font-size: 40px;
+   text-align: center;
+   text-decoration: underline;
+   margin: 20px;
+   letter-spacing: 10px;
+}
+
+.title-2 {
+   text-shadow: 10px 10px 3px #f81bed, -10px -10px 3px #0e90ed;
+   letter-spacing: 10px;
+   color: hwb(300 51% 7%);
+   font-family: 'Oswald', serif;
+   font-weight: 500;
+   font-size: 30px;
+   text-align: center;
+   text-decoration: underline;
+}
+
+.block {
+   
+   text-transform: capitalize;
+   background-color: wheat;
+   font-family: "Lato", serif;
+   font-weight: 500;
+   font-size: 20px;
+   text-align: left;
+   padding: 70px;
+   margin: 40px;
+   margin-bottom: 80px;
+   text-align: center;
+}
+
+.block-2 {
+   line-height: 50px;
+   background-color: greenyellow;
+   font-family: "Lato", serif;
+   font-weight: 500;
+   font-size: 25px;
+   text-align: right;
+   padding: 70px;
+   margin: 40px;
+
+
+
+}
+
+.block-3 {
+   text-indent: 40px;
+   background-color: goldenrod;
+   font-family: "Lato", serif;
+   font-weight: 400;
+   font-size: 17px;
+   text-align: justify;
+   padding: 70px;
+   margin: 40px;
+}
+
+.block-4 {
+   max-width: 500px;
+   margin: 0 auto;
+   margin-top: 70px;
+   margin-bottom: 70px;
+   padding: 70px;
+   background-color: tan;
+   font-family: "Lato", serif;
+   font-weight: 700;
+   font-size: 23px;
+   text-align: center;
+}
+
+.block-5{
+   padding-left: 20px;
+   padding-top: 45px;
+   padding-bottom: 45px ;
+   padding-right: 20px;
+   background-color: green;
+   font-family: "Lato", serif;
+   font-weight: 700;
+   white-space: normal;
+overflow: auto;
+margin: 80px;
+border-radius: 30px;
+}
+
+
+
+.circle{
+   margin: 0 auto;
+   margin-top:80px ;
+   margin-bottom: 70px;
+   height: 200px;
+   width: 200px;
+   border-radius: 100%;
+   background-color: olive;
+}
+
+
+/* фантомні пробіли */
+
+/*.items{
+   font-size: 0px;
+}
+
+.item{
+   font-size: 20px;
+   background-color: blueviolet;}*/
+
+   .items{
+      
+      font-family: "Lato", serif;
+      
+      
+   }
+
+.item{
+   display: inline-block;
+   
+   border: 20px solid green;
+   box-shadow: 2px 2px 5px firebrick;
+   font-family: "Lato", serif;
+   padding-left: 20px;
+   padding-top:45px;
+   padding-bottom: 45px ;
+   padding-right: 20px;
+   font-size: 20px;
+   background-color: rgb(21, 33, 253);
+
+}
+/*display: inline-block;*/
+/*display:  none;*/
+
+   /* display (за замовчуванням для блочних об'єків)
+багатофункціональна властивість яка задає глобальні 
+параиетри тега.
+block (за замовчуванням для блочних об'єків)
+   елемент відображається як блочний.
+Властивість не успадковується
+inline - (за замовчуванням для рядкових об'єків) 
+елемент відображається як рядковий. 
+inline-block - елемент відображається як рядковий 
+але з можливістю використання усіх css-властивостей
+none - елемент не виводиться.
+інші елементи займають його місце
+не приймає участь у обробці браузером
+ */
+
+
+
+
+
+/*.title-4{
+   background-color: greenyellow;
+   margin: 30px;
+  
+}
+
+
+.title-3{ 
+   background-color: rgb(21, 167, 123);
+
+
+} */
